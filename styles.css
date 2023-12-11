@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap+family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-image: url(./images/blue\ backgroung.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+ a {
+    color: #ffffff;
+    text-decoration-color: rgb(5, 252, 170);
+}
+.nav-link a:hover {
+    color: rgba(141, 240, 207, 0.658);
+}
+.logo span {
+    color: rgb(185, 182, 182);
+}
+header {
+    width: 29%;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;;
+    margin: 2% auto;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+}
+header button {
+    margin-top: 20px;
+    padding: 8px 10px;
+    font-size: 11px;
+    background-color: rgb(5, 252, 170);
+    border: none;
+    font-weight: 600;
+}
+.image {
+    transform: rotateZ(75deg) scaleX(0.43);
+    position: relative;
+    top: -70px;
+}
+.sectionOne {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+.sectionOne article {
+    width: 25%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.articleNo {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.sectionOne article h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #400440;
+}
+.sectionOne {
+    font-size: 13px;
+    line-height: 18px;
+}
