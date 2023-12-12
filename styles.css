@@ -11,15 +11,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 550px;
     border-bottom-left-radius: 50% 100px;
     border-bottom-right-radius: 50% 100px;
+    margin-bottom: 40px;
 }
 nav {
     display: flex;
     justify-content: space-between;
     color: white;
     padding: 2rem;
+    margin: 0 50px;
 }
 .logo {
     font-size: 20px;
@@ -38,7 +40,7 @@ nav {
 header {
     width: 29%;
     text-align: center;
-    font-family: 'DM Serif Display', serif;;
+    font-family: 'DM Serif Display', serif;
     margin: 2% auto;
     color: #ffffff;
     font-size: 25px;
@@ -53,18 +55,20 @@ header button {
     font-weight: 600;
 }
 .image {
-    transform: rotateZ(75deg) scaleX(0.43);
+    transform: rotateZ(80deg) scaleX(0.43);
     position: relative;
-    top: -70px;
+    top: -25px;
 }
 .sectionOne {
-    margin-top: 7rem;
+    min-height: 90vh;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 2rem;
     text-align: center;
+    font-size: 13px;
+    line-height: 18px;
 }
 .sectionOne article {
     width: 25%;
@@ -85,7 +89,109 @@ header button {
     margin-bottom: 20px;
     color: #400440;
 }
-.sectionOne {
-    font-size: 13px;
-    line-height: 18px;
+
+.sectionTwo {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sectionTwo img {
+    background-color: rgb(5, 252, 170);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(180, 128, 163);
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    bottom: 200px;
+}
+.sectionTwo div {
+    display: inline-block;
+    margin: 0 10%;
+    background: url(./images/blue\ backgroung.jpg)  ;
+    padding: 2em;
+    color: #ffffff;
+    width: 35%;
+    position: relative;
+    bottom: 120px;
+    right: 18px;
+}
+.sectionTwo div h2 {
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: rgb(245, 240, 240);
+}
+.sectionTwo div p {
+    color: gainsboro;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.sectionTwo div button {
+    background-color: rgb(5, 252, 170);
+    border: none;
+    padding: 10px;
+    font-size: 11px;
+}
+footer {
+    text-align: center;
+}
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: #280228;
+    font-size: 14px;
+    padding: 30px 0;
+}
+.footer-links li {
+    padding: 10px;
+}
+.footer-links li:hover {
+    color: rgb(5, 252, 170);
+}
+
+@media (max-width: 700px) {
+    .top {
+        height: 300px;
+        border-bottom-left-radius: 40% 60px;
+        border-bottom-right-radius: 40% 60px;
+        margin-bottom: 40px;
+    }
+    nav {
+        padding: 2rem;
+        margin: 0 10px;
+    }
+    header {
+        margin: 2% auto;
+        font-size: 14px;
+        width: 60%;
+    }
+    header button {
+        margin-top: 10px;
+        padding: 5px 8px;
+        
+    }
+    .image {
+        width: 250px;
+        
+    }
+    .sectionOne article {
+        width: 100%;
+    }
+    .sectionTwo img {
+        width: 60%;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+    .sectionTwo div {
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
 }
