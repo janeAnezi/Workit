@@ -14,7 +14,6 @@
     height: 550px;
     border-bottom-left-radius: 50% 100px;
     border-bottom-right-radius: 50% 100px;
-    margin-bottom: 40px;
 }
 nav {
     display: flex;
@@ -60,6 +59,7 @@ header button {
     top: -25px;
 }
 .sectionOne {
+    background-color: #f4ecf4;
     min-height: 90vh;
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +69,8 @@ header button {
     text-align: center;
     font-size: 13px;
     line-height: 18px;
+    border-bottom-left-radius: 50% 50px;
+    border-bottom-right-radius: 50% 50px;
 }
 .sectionOne article {
     width: 25%;
@@ -185,7 +187,7 @@ footer {
         width: 60%;
         left: 0;
         bottom: 0;
-        margin-bottom: 20px;
+    
     }
     .sectionTwo div {
         width: 100%;
@@ -193,5 +195,6 @@ footer {
         right: 0;
         margin-bottom: 40px;
         text-align: center;
+        bottom: 20px;
     }
 }
